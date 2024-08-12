@@ -1,0 +1,9 @@
+--max-columns=150
+--max-columns-preview
+
+--type-add
+web:*.{html,css,scss,js,ts,hbs}*
+
+--glob=!{**/.git/*,**/node_modules/*,**/WEB_INF/*,**/target/*}
+
+--smart-case
